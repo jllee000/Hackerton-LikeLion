@@ -1,0 +1,56 @@
+.main {
+    background: #f2f4f7;
+    /*header부분 빼주기*/
+    position: relative;
+    top: 55px;
+  }
+
+.left {
+    background-color: rgb(192, 172, 172); 
+    width: 590px; 
+    height: 3000px; 
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbox {
+    background-color: white;
+    width: 570px;
+    margin: 10px;
+    height: 580px;
+}
+
+.feedimg {
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.feedcontent {
+    padding: 10px;
+
+}
+
+.feed_like{
+    padding: 0px 10px;
+}
+
+.feed_reply{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.feed_txt{
+    font-size: 17px;
+}
+
+.feed_icon{
+    padding: 5px 5px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+}span{
+     padding-right: 5px;
+ }
